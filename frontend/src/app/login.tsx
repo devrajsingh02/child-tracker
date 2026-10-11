@@ -14,7 +14,7 @@ import {
 } from "react-native";
 import { useRouter } from "expo-router";
 
-const API_URL = "http://10.205.23.6:5000";
+const API_URL = "http://child-tracker-81b1.onrender.com";
 
 export default function Login() {
   const router = useRouter();

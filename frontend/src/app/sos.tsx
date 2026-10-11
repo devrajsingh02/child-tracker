@@ -11,7 +11,7 @@ import {
 
 import BottomNav from "@/components/BottomNav";
 
-const API_URL = "http://10.205.23.6:5000";
+const API_URL = "http://child-tracker-81b1.onrender.com";
 
 export default function SOS() {
   const [sosPressed, setSosPressed] = useState(false);
