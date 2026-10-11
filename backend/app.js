@@ -30,7 +30,7 @@ app.get("/api/auth/me", authMiddleware, (req, res) => {
 
 connectDB();
 
-const PORT = 5000;
+const PORT = process.env.PORT;
 
 app.get("/", (req, res) => {
     res.json({
